@@ -1,0 +1,19 @@
+{
+  "name": "expressdemo2",
+  "version": "1.0.0",
+  "description": "Express Framework Demo",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "prod": "node app.js"
+  },
+  "author": "Balwant Ram",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "ejs-locals": "^1.0.2",
+    "express": "^4.16.4",
+    "pug": "^2.0.3"
+  }
+}
